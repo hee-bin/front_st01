@@ -1,0 +1,21 @@
+header ul li a{
+    display:inline-block;
+    padding:5px 10px;
+    background-color: rgb(18, 197, 138);
+    color: aliceblue;
+    margin-right: 10pxs;
+    text-decoration: none;
+}
+
+header ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+section ul li{
+    list-style-type: square;
+}
+
+section ol li{
+    list-style-type: loma;
+}
