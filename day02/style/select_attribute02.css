@@ -1,0 +1,41 @@
+div{
+    background-color: silver;
+    width: 300px;
+
+}
+
+p+div{
+    border: 2px solid;
+    width: 500px;
+    height: 250px;
+}
+
+a{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: beige;
+}
+
+a:link{
+    background-color: blue;
+    color: aliceblue;
+}
+
+
+a:active{
+    background-color: greenyellow;
+    color: darksalmon;
+}
+
+a:hover{
+    color: rgb(81, 122, 158);
+}
+
+a:visited{
+    background-color: aqua;
+}
+
+
+

@@ -7,56 +7,55 @@
     <style>
         table{
             width: 750px;
-            border-collapse: collapse
+            height: 300px;
+            border:1px solid black;
+            border-collapse : collapse;
+
+
         }
-        tr td, tr th{
-            border: 1px solid pink; ;
+        tr td{
+            border: 1px solid black;
+            text-align: center;
         }
+
         
-        col.c1, col.c3{
+        col.c1{
             background-color: rgb(255, 242, 0);
                 }
 
-        th{
-            background-color: rgb(29, 240, 255);
-        }
+
 
      </style>
 </head>
 <body>
 
+
+    <br>
+
     <table>
-        <caption>[표1]학생 주소록</caption>
         <colgroup>
             <col class="c1">
             <col>
-            <col class="c3">
+            <col>
         </colgroup>
-            <thead>
-                <tr>
-                    <th scope="col">이름</th>
-                    <th scope="col">나이</th>
-                    <th scope="col">주소</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>heebin</td>
-                    <td>24</td>
-                    <td>경기</td>
-                </tr>
-                <tr>
-                    <td>minsu</td>
-                    <td>20</td>
-                    <td>인천</td>
-                </tr>
-                <tr>
-                    <td>hyeonwoo</td>
-                    <td>25</td>
-                    <td>강원</td>
-                </tr>
-            </tbody>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td colspan="2">2</td>
+                <td>3</td>
+            </tr>
+            <tr> 
+                <td rowspan="2">4</td>
+                <td colspan="3">5</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+            </tr>
+            
+        </tbody>
     </table>
-    
 </body>
 </html>

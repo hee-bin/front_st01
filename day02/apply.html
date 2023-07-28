@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>여름방학 특강 신청</h1>
+    <br>
+    <fieldset>
+        <legend>수강 신청인</legend>
+            <li>
+                <label for="num" >학번</label>
+                <input type="text" name="num" id="num" required>
+            </li>
+            <li>
+                <label for="name">이름</label>
+                <input type="text" name="num" id="name" required>
+            </li>
+            <li>
+                <label for="major">학과</label>
+                 <select name="major" id="major">
+                    <option value="건축">건축공학과</option>
+                    <option value="경영">경영학과</option>
+                    <option value="국문">국어국문학과</option>
+                 </select>
+            </li>
+    </fieldset>
+
+    <fieldset>
+        <legend>수강 과목을 선택하세요</legend>
+        <li>
+            <label for="color">선호색상</label>
+            <select id="color" name="userColor">
+              <option value="#ff0000"></option>
+              <option value="#00ff00"></option>
+              <option value="#0000ff"></option>
+              <option value="#ffff00"></option>
+              <!-- 다른 색상 옵션들 추가 가능 -->
+            </select>
+        </li>
+        <li>
+            <label>신청 과목<small>(회화)</small></label>
+            <label for="begin">영어 회화(초급)</label>
+            <input type="radio"   id="begin" value="영어 회화(초급)" name="sbj" checked>
+            <label for="inter">영어 회화(중급)</label>
+            <input type="radio"   id="inter" value="영어 회화(중급)" name="sbj">
+            <label for="adv">영어 회화(고급)</label>
+            <input type="radio"   id="adv" value="영어 회화(고급)" name="sbj">
+        </li>
+
+        <li>
+            <label>신청 과목<small>(자격)</small></label>
+            <label for="TOEIC">TOEIC</label>
+            <input type="radio"   id="TOEIC" value="TOEIC" name="cer">
+            <label for="TOEFL">TOEFL</label>
+            <input type="radio"   id="TOEFL" value="TOEFL" name="cer">
+            <label for="OPIC">OPIC</label>
+            <input type="radio"   id="OPIC" value="OPIC" name="cer">
+        </li>
+
+        <li>
+            <label>관심분야</label>
+            <input type="text">
+        </li>
+        
+    </fieldset>
+
+    <fieldset>
+        <legend>강의 시간을 선택하세요</legend>
+        <li>
+            <label for="week">개강 주</label>
+            <input type="text" id="week" >
+        </li>
+        <li>
+            <label for="time">강의 시간</label>
+            <input type="text" id="week" >
+        </li>
+
+    </fieldset>
+    
+</body>
+</html>

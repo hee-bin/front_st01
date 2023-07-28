@@ -1,0 +1,32 @@
+*{
+    color: aquamarine;
+    background-color: black;
+    text-align: center  ;
+}
+
+.box{
+    width: 500px;
+    height: 100px;
+    border: 5px double burlywood;
+    d
+    
+}
+
+
+/*
+div.a => div중에서 class가 a인 애들
+div class='a'
+
+div> .a => div자식 들 중에 class가 a인 태그들
+<div>
+    <p class='a'>
+
+div .a => 자식뿐 아니라 자손들 중에 class가 a인 모든 태그들
+<div>
+    <p class ='a'>
+        <pc class = 'a'>
+        /...
+*/
+
+
+

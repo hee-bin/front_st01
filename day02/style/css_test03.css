@@ -1,0 +1,70 @@
+
+
+
+div{
+    width: 100px;
+    height: 100px;
+    background: rgb(0, 146, 92);
+    border: 5px solid rgb(191, 255, 0);
+    float: left;
+    margin-right: 50px;
+    text-align: center;
+    color: aliceblue;
+}
+
+div[title]{
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+}
+
+div[title = "hi hello a2"]{
+    color: coral;
+    font-size: 20px;
+}
+
+div.clear{
+    clear:both;
+ }
+
+ a{
+    display: inline-block;
+    width: 100px;
+ }
+
+
+
+ a[href$="com"]{
+    color: rgb(255, 7, 7);
+ }
+
+ a[href^="http"]{
+    border: 3px solid rgb(225, 173, 173);
+ }
+
+
+ a[href*="shinhansec"]{
+    background: rgb(19, 186, 120);
+    font-size: 20px;
+    color: aliceblue;
+
+ }
+
+
+
+
+
+
+/*
+div.a => div중에서 class가 a인 애들
+div class='a'
+
+div> .a => div자식 들 중에 class가 a인 태그들
+<div>
+    <p class='a'>
+
+div .a => 자식뿐 아니라 자손들 중에 class가 a인 모든 태그들
+<div>
+    <p class ='a'>
+        <pc class = 'a'>
+        /...
+*/
