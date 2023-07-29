@@ -1,0 +1,78 @@
+body{
+    background-color: aliceblue;
+    margin: 50px;
+}
+/* header */
+header{
+    background-color: gray;
+    color: white;
+    text-align: right;
+}
+
+header h1, h2{
+    text-align: left;
+    padding-left: 30px;
+}
+
+.hnav{
+    padding-right: 50px;
+}
+
+.hnav ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.hnav a{
+    color: white;
+    padding-right: 30px;
+}
+
+
+/* mid */
+.mid{
+    display:flex;
+}
+
+
+.main{
+    flex: 1;
+    padding-left: 50px
+
+}
+
+/* aside */
+aside{
+    flex: 1;
+}
+
+.aside-content{
+    display: flex;
+    flex-direction: column ;
+    float: right;
+    padding-right: 50px;
+}
+
+aside section{
+    text-align: center;
+}
+
+aside section h2{ 
+    text-align: left;
+}
+
+aside section ul li{
+    list-style-type: none;
+}
+
+.line{
+    border: 1px solid silver;
+}
+
+
+/* footer */
+footer{
+    padding-left: 50px;
+    font-weight: bold;
+}
+
