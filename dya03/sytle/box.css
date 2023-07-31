@@ -1,0 +1,71 @@
+div{
+    width: 500px;
+    height: 500px;
+    border-width: 3px;
+    border-style: dotted;
+    border-color: black;
+    padding: 100px 50PX  30PX 200PX;
+    margin: 100px 200PX;
+
+}
+
+.menu li{
+    display: inline-block;
+}
+
+
+.menu li a{
+    padding: 20px;
+    border: 3px solid  black;
+    border-radius: 50px 10px 50px 10px;
+    display: inline-block;
+    color: white;
+    background-color: rgb(86, 214, 214);
+    text-decoration: none;
+    font-size: 2rem;
+    margin:0px 30px;
+}
+
+#box{
+    width: 50px;
+    height: 50px;
+    /* border-top: 5px solid blue;
+    border-left: 5px solid blue;
+    border-right: 5px solid blue; */
+    border: 5px solid blueviolet;
+    border-bottom: 10px double red;
+    border-radius: 50px;
+    border-bottom-left-radius: 0%;
+    text-align: center;
+}
+
+.menu2 li{
+    display: inline-block;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Handjet&display=swap');
+.menu2 li a{
+    display: inline-block;
+    border: 5px solid black;
+    padding: 30px;
+    color: aliceblue;
+    background-color: coral;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 10px;
+    font-size: 2rem;
+    border-color: rgb(147, 234, 17);
+    font-family: 'Handjet', cursive;
+    font-size:50px;
+    margin: 0px 20px;
+
+}
+
+
+          
+
+
+ 
+          
+ 
+

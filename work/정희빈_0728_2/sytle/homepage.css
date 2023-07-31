@@ -1,6 +1,6 @@
 body{
     background-color: aliceblue;
-    margin: 50px;
+    margin: 60%px;
 }
 /* header */
 header{
@@ -32,24 +32,24 @@ header h1, h2{
 /* mid */
 .mid{
     display:flex;
+    flex-direction: row;
 }
 
 
 .main{
-    flex: 1;
+    flex: 70%;
     padding-left: 50px
 
 }
 
 /* aside */
 aside{
-    flex: 1;
+    flex: 30%;
 }
 
 .aside-content{
     display: flex;
     flex-direction: column ;
-    float: right;
     padding-right: 50px;
 }
 
