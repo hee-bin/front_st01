@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.linear{
+            width: 300px;
+            height: 300px;
+            border: 1px solid black;
+            /* background: linear-gradient(to top, skyblue, white); */
+            /* background: linear-gradient(to top, skyblue 5%, white 50%, skyblue); */
+            background: radial-gradient(circle, white , black );
+        }
+
+        div{
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            width: 100px; height: 100px;
+            border: 1px solid black;
+            background: skyblue;
+            float: left;
+        }
+
+        table{
+            width: 300px; height: 300px;
+            border-collapse: collapse;
+
+        }
+        tr td{
+            border: 1px solid black;
+            text-align: center;
+        }
+        thead{
+            background: yellow;
+            border-bottom:3px double;
+        }
+      
+    </style>
+</head>
+<body>
+    <div class="linear">welcome</div>
+    <div>div3</div>
+    <div>div2</div>
+    <div>div3</div>
+
+    <table>
+        <colgroup>
+            <col>
+        </colgroup>
+        <thead>
+            <tr>
+                <td scope="col">번호</td>
+                <td scope="col">이름</td>
+                <td scope="col">국어</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>홍길동</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>김하나</td>
+                <td>90</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+
+
+
+

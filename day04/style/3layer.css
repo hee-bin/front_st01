@@ -1,0 +1,75 @@
+*{
+    margin: 10px;
+}
+
+body{
+    width: 85%;
+    margin: 30px;
+}
+
+
+header{
+    border: 1px solid rgb(217, 33, 33);
+    padding: 10px;
+
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
+aside{
+    flex:30%;
+    border: 1px solid silver;
+    height: min-content;
+}
+
+aside h2{
+    padding: 10px;
+}
+
+
+ul{
+    padding: 10px 10px 10px 10px;
+}
+
+li {
+    display: flex;
+}
+
+
+li a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+
+
+section{
+    flex :70%;
+    border: 1px solid silver;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+section p{
+    position: relative;
+    left: 3vw;
+}
+
+
+
+
+footer{
+        border: 1px solid silver;
+        padding: 2vh 2vw;
+}
+
+
+
+

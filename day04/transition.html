@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: rgba(245, 245, 220, 0.813);
+        margin: 30px;
+    }
+    div{
+        width: 100px; height: 100px;
+        background-color: pink;
+        margin: 190px;
+        border-radius: 25%;
+
+    }
+
+    #trans{
+        transition-property: background-color, border-radius;
+        transition-duration:3s 5s ;
+    }
+
+    #trans:hover{
+        background-color: aquamarine;
+        border-radius: 50%;
+    }
+
+    .box{
+        width: 200px;
+        height: 200px;
+        background-color: aquamarine;
+    }
+
+    div.box{
+        animation-name: myani;
+        animation-duration: 5s;
+        animation-iteration-count: 4;
+
+    }
+
+    @keyframes myani{
+        0%{
+            background-color: pink;
+            border-radius: 10%;
+        }
+
+        50%{
+            background-color: skyblue;
+            border-radius: 35%;
+
+
+        }
+        100%{
+            background-color: aquamarine;
+            border-radius: 50%;
+
+        }
+    }
+
+
+
+
+</style>
+<body>
+    <div id="trans"></div>
+    <div class="box"></div>
+</body>
+</html>

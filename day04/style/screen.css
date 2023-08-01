@@ -1,0 +1,8 @@
+body{
+    background-color: rgb(255, 220, 207);
+}
+
+div{
+    border: 20px double deeppink ;
+    background-color: pink ;
+}
