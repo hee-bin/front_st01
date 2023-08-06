@@ -1,24 +1,250 @@
 @media screen and (min-width:320px) {
-    
-    body{
+    .wrap{
+        width: 100%;
+        margin: auto;
     }
+
+
+    header {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(50, 155, 196);
+        padding: 10px;
+        height: max-content;
+        border-bottom: 1px solid silver;
+    }
+    
+    .menu-container {
+        position: relative;
+    }
+
+    .mainMenuBtn {
+        position: absolute; /* 버튼을 절대 위치로 설정 */
+        top: 0vh; /* 원하는 높이값으로 조정 */
+        right: 3vw; /* 원하는 오른쪽 여백값으로 조정 */
+        width: 30px;
+        height: 30px;
+        color: transparent;
+        background: linear-gradient(#fff 50%,transparent 50%);
+        background-size: 100% 10px;
+    }
+    
+    .mainMenu {
+        display: none;
+        position: absolute;
+        top: 2vh;
+        right: 0;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 5px;
+    }
+    
+    .mainMenu a {
+        display: block;
+        text-decoration: none;
+        color: #333;
+        padding: 5px ;
+    }
+    
+    .menu-container:hover .mainMenu {
+        display: block; /* 메인 버튼이나 메인 메뉴에 마우스를 올리면 메인 메뉴 보이기 */
+    }
+
+    .logo{
+        margin: 1vh 3vw;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+
+    .mainMenu li{
+        display: flex;
+        list-style: none;
+    }
+
+    .list{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .list li{
+        width: 500px;
+        display: flex;
+        flex-direction: row;
+        border-bottom: 1px solid silver;
+        padding: 0px 20px;
+    }
+
+
+    .list li div{
+        padding: 25px;
+        padding-top: 0px 30px;
+    }
+
+ 
 }
 
-@media screen and (min-width:768px) {
-    
-    body{
+
+
+@media screen and (min-width:768px), screen and (min-height:760px) and(orientation:landscape) {
+    .wrap{
+        width: 95%; margin: auto;
     }
+
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: green;
+        height: 8vh;
+    }
+
+    .mainMenuBtn{
+        display: none;
+    }
+
+    .mainMenu{ 
+        position: absolute;
+        top: -3vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        border: none;
+        background-color: transparent;
+    }
+
+    .mainMenu ul {
+        display: flex;
+        flex-direction: row;
+        padding: 0px 0px 0px 0px;
+     }
+
+    .mainMenu ul li{
+        padding: 10px;
+     }
+
+     .mainMenu ul li a{
+        flex-direction: row;
+        color: azure;
+        font-size: 1.5rem;
+        font-weight: 700;
+
+     }
+     .mainMenu ul li a:hover{
+        background-color: rgb(0, 255, 255);
+        border-radius: 10px;
+     }
+
+
+
+
+
+
+ 
+
+     .list{
+        width: 90%;
+        display: block
+      
+    }
+    .list li{
+        display: inline-block;
+        width: auto;
+        border-bottom: 1px solid silver;
+        bor
+    }
+    .list li a{
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    #con{
+        position: relative;
+        top: 2vh;
+    }
+
+  
+
+    footer p{
+        background-color: pink;
+        color: white;
+        font-weight: 2rem;
+        font-size: 2rem;
+        padding: 20px;
+    }
+
+
+
 }
 
 
 @media screen and (min-width:1024px) {
-    
-    body{
-        margin: auto;
+
+    .wrap{
+        width: 95%; margin: auto;
     }
 
     header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: transparent;
+        height: 8vh;
+    }
+
+    .mainMenuBtn{
+        display: none;
+    }
+
+    .mainMenu{ 
+        position: absolute;
+        top: -3vh;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        border: none;
+        background-color: transparent;
+    }
+
+    .mainMenu ul {
+        display: flex;
+        flex-direction: row;
+        padding: 0px 0px 0px 0px;
+     }
+
+    .mainMenu ul li{
         padding: 10px;
+     }
+
+     .mainMenu ul li a{
+        flex-direction: row;
+        color: black;
+        font-size: 1.5rem;
+        font-weight: 700;
+
+     }
+     .mainMenu ul li a:hover{
+        background-color: rgb(0, 255, 255);
+        border-radius: 10px;
+     }
+
+
+    footer p{
+        display: flex;
+        background-color: rgb(181, 181, 181);
+        color: black;
+        font-weight: 0.5rem;
+        font-size: 0.9rem;
+        justify-content: center;
     }
 
 }
