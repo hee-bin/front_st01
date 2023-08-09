@@ -62,3 +62,19 @@ let t3=function(){
 console.log(typeof t1);
 console.log(typeof t2);
 console.log(typeof t3);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
