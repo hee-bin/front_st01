@@ -67,3 +67,6 @@ for(let i=ele_reds.length-1; i>=0; i--){
 
 /* 
 document.querySelectorAll('.red').forEach(item=>item.className='green'); */
+
+
+
