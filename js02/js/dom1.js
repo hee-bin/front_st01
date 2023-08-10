@@ -48,9 +48,9 @@ for (let layoutImg of layoutImgs) {
     }       */
 
 
-
+/* 
 let ele_reds =  document.querySelectorAll('.red');
-console.log(ele_reds);
+console.log(ele_reds); */
 /* 
 for(let i=0; i < ele_reds.length; i++){
     ele_reds[i].className='green';
@@ -69,4 +69,39 @@ for(let i=ele_reds.length-1; i>=0; i--){
 document.querySelectorAll('.red').forEach(item=>item.className='green'); */
 
 
+
+
+/* 
+    children
+    firstchild
+    lastchild
+    nextSibling
+    previousSibling
+
+    hasChildNodes
+*/
+
+const ul_ele = document.querySelector('ul');
+console.log(ul_ele.children);
+console.log(ul_ele.hasChildNodes);
+console.log(ul_ele.firstChild);
+console.log(ul_ele.lastChild);
+
+let ele_m3 = document.getElementById('m3');
+let next_ele_m3 = ele_m3.nextElementSibling;
+next_ele_m3.style.backgroundColor = 'yellow';
+
+ele_m3.previousElementSibling.style.backgroundColor='red'
+
+
+
+
+/* 
+    className : class attribute값을 변경하거나 얻어올 때
+    classList : 
+*/
+
+let cName = document.getElementById('m2');
+console.log(cName.className);
+cName.className='red';
 
